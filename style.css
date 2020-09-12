@@ -1,5 +1,6 @@
 body {
   font-family: Verdana, Arial, sans-serif;
+  margin: 0 25%;
 }
 
 legend {
@@ -21,7 +22,9 @@ div {
   margin: 10px;
 }
 
-/* For all label elements, set display to inline-block, text-align to right, vertical-align to top, width to 200px */
+div:hover {
+  color: blue;
+}
 
 label {
   display: inline-block;
@@ -54,8 +57,6 @@ input[type="checkbox"] + label {
   padding: 6px;
   text-align: center;
 }
-
-/* For all input elements with a type of "submit" (hint: use an attribute selector), set background to darkcyan, border-radius to 10px, color to white, font-size to 20px, and padding to 12px. */
 
 input[type="submit"] {
   background: darkcyan;

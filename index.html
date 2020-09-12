@@ -16,7 +16,7 @@
       <!-- First Fieldset -->
       <fieldset>
         <legend>Your Face</legend>
-        <div>
+        <div class="hover">
           <label for="avatar">Upload Your Image:</label>
           <input type="file" id="avatar" name="avatar" required />
         </div>
@@ -25,30 +25,30 @@
       <!-- Second Fieldset -->
       <fieldset>
         <legend>Your Details</legend>
-        <div>
+        <div class="hover">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required />
         </div>
-        <div>
+        <div class="hover">
           <label>Gender:</label>
           <input type="radio" id="woman" name="gender" value="woman" required />
           <label for="woman">Woman</label>
           <input type="radio" id="man" name="gender" value="man" />
           <label for="man">Man</label>
         </div>
-        <div>
+        <div class="hover">
           <label for="age">Age:</label>
           <input type="number" id="age" name="age" max="117" required />
         </div>
-        <div>
+        <div class="hover">
           <label for="dob">Date of Birth:</label>
           <input type="date" id="dob" name="dob" required />
         </div>
-        <div>
+        <div class="hover">
           <label for="color">Favorite Color:</label>
           <input type="color" id="color" name="color" required />
         </div>
-        <div>
+        <div class="hover">
           <label for="country">Country:</label>
           <select id="country" name="country">
             <option>Choose a country</option>
@@ -113,5 +113,6 @@
       </fieldset>
       <input type="submit" class="submit-btn" />
     </form>
+    <script src="https://url.nucamp.co/datingjs"></script>
   </body>
 </html>
